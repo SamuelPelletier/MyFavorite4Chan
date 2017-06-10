@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
 
     <meta charset="utf-8">
@@ -10,14 +11,127 @@
 
     <title>My Favorite 4Chan</title>
 
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
-	<body style='background-color:black'>
-	<h1 style='color:white; '>Welcome to My Favorite 4Chan !</h1>
-	</body>
-	<content>
-	<video controls src="https://samuelpelletier.github.io/MyFavorite4Chan.github.io/video/miku.webm">Nice dance</video>
-	</content>
-	
-	<footer>
-	</footer>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Welcome to My Favorite 4Chan !</a>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">All videos
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Project One -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <video width="500" height="250" controls>
+						<source src="./video/miku_dance.webm">
+					</video>
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Miku Dance</h3>
+                <a class="btn btn-primary" href="#">View video <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Two -->
+         <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <video width="500" height="250" controls>
+						<source src="./video/miku_gun.webm">
+					</video>
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Miku Gun</h3>
+                <a class="btn btn-primary" href="#">View video <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Three -->
+         <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <video width="500" height="250" controls>
+						<source src="./video/miku_russian.webm">
+					</video>
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Miku Russian</h3>
+                <a class="btn btn-primary" href="#">View video <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; MyFavorite4Chan 2017</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
