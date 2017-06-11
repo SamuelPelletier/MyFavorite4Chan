@@ -1,4 +1,4 @@
-var videos = ['miku_dance','miku_gun','impro','miku_russian','monkey', 'ayaya']
+var videos = ['russian_kid','miku_dance','miku_gun','impro','miku_russian','monkey', 'ayaya']
 
 $(document).ready(function(){
     videos.forEach(function(video) {
