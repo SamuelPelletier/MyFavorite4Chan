@@ -11,7 +11,7 @@ $(document).ready(function(){
         '<div class="row">'+
             '<div class="col-md-7">'+
         '<h3>'+title+'</h3>'+
-            '<video controls>'+
+            '<video>'+
         '<source src='+url+'>'+
             '</video>'+
             '</div>'+
@@ -20,4 +20,10 @@ $(document).ready(function(){
         '<hr>'
         )
     });
+    $('video').hover(function (){
+        $(this).attr('controls', true);
+    }, function(){
+        $(this).attr('controls', false);
+    });
+    
 });
