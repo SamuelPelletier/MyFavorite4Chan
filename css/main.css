@@ -77,3 +77,42 @@ h3.retroshadow {
 video {
     border-radius: 6px;
 }
+
+.pagination {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.pagination li {
+    display: inline;
+    text-align: center;
+}
+.pagination .page.active {
+    cursor: default;
+}
+.pagination .page:active {
+    outline: none;
+}
+
+li:first-child .page{
+    -moz-border-radius: 6px 0 0 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px 0 0 6px;
+}
+li:last-child .page {
+    -moz-border-radius: 0 6px 6px 0;
+    -webkit-border-radius: 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.pagination li > a:hover {
+    background-color: #93b6f4;
+}
+.page.active {
+    border-color: #4285F4;
+    background: #4285F4;
+    color: #fff;
+}
+
