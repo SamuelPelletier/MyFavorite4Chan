@@ -67,7 +67,10 @@ $(document).ready(function () {
     $('.content').append('<ul style="margin-left: calc(50% - 34px * '+(nbrPage+2)+'/2)" class="pagination"></ul>')
     $('.pagination').append('<li><a href="?page='+pagePrev+'" class="prev">&laquo</a></li>')
     for(i = 1; i < nbrPage+1; i++){
-        var active = (result.page == i) ? 'active' : ''
+        var active = (result.page == i ) ? 'active' : ''
+        if(i === 1 && result.page === undefined){
+            active = 'active'
+        }
         $('.pagination').append('<li><a class="page '+active+'" href="?page='+i+'">'+i+'</a></li>')
     }
     $('.pagination').append('  <li><a href="?page='+pageNext+'" class="next">&raquo;</a></li>')
