@@ -27,7 +27,7 @@ $(document).ready(function () {
         return query_string;
     }
 
-    var result = parse_query_string(document.URL.split(".html?").pop())
+    var result = parse_query_string(document.URL.split("?").pop())
     if (result.page <= 1 || result.page === undefined) {
         videos = videos.slice(0, pagination)
     } else {
