@@ -1,4 +1,4 @@
-var videos = ['nice_shot','helicopter_vs_russian','skeleton_song','drive_style','cat_war','deutch_kalitat','night_theme','golf','cat_club','i_fear_you', 'best_news', 'speed_run', 'good_man', 'shop', 'escape_anime', 'nice_presenter', 'speed_car', 'life', 'russian_kid', 'miku_dance', 'miku_gun', 'impro', 'miku_russian', 'monkey', 'ayaya']
+var videos = ['best_orchestra','hard_cute','demolition_girl','ecchi_AMV','wait','nice_shot','helicopter_vs_russian','skeleton_song','drive_style','cat_war','deutch_kalitat','night_theme','golf','cat_club','i_fear_you', 'best_news', 'speed_run', 'good_man', 'shop', 'escape_anime', 'nice_presenter', 'speed_car', 'life', 'russian_kid', 'miku_dance', 'miku_gun', 'impro', 'miku_russian', 'monkey', 'ayaya']
 var pagination = 10
 
 
