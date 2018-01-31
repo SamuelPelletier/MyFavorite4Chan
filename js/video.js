@@ -1,4 +1,4 @@
-var videos = ['best_orchestra','hard_cute','demolition_girl','ecchi_AMV','wait','nice_shot','helicopter_vs_russian','skeleton_song','drive_style','cat_war','deutch_kalitat','night_theme','golf','cat_club','i_fear_you', 'best_news', 'speed_run', 'good_man', 'shop', 'escape_anime', 'nice_presenter', 'speed_car', 'life', 'russian_kid', 'miku_dance', 'miku_gun', 'impro', 'miku_russian', 'monkey', 'ayaya']
+var videos = ['so_chill','smart_art','VR','wooden_dance','hey_dog','strong_song','grow_up','nice_aim','no_respect','song_of_the_year','in_the_past','indian','cat_and_drugs','salto','motor_style','swim','master_skill','pioupiou','best_orchestra','hard_cute','demolition_girl','ecchi_AMV','wait','nice_shot','helicopter_vs_russian','skeleton_song','drive_style','cat_war','deutch_kalitat','night_theme','golf','cat_club','i_fear_you', 'best_news', 'speed_run', 'good_man', 'shop', 'escape_anime', 'nice_presenter', 'speed_car', 'life', 'russian_kid', 'miku_dance', 'miku_gun', 'impro', 'miku_russian', 'monkey', 'ayaya']
 var pagination = 10
 
 
